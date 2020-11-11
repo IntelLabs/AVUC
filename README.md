@@ -28,8 +28,8 @@ This code has been tested on PyTorch v1.6.0 and torchvision v0.7.0 with python 3
 Datasets:
 - CIFAR-10 [[Krizhevsky 2009](https://www.cs.toronto.edu/~kriz/cifar.html)]
 - ImageNet [[Deng et al. 2009](http://image-net.org/download)] (download dataset to data/imagenet folder)
-- CIFAR10 with corruptions [[Hendrycks & Dietterich 2019](https://github.com/hendrycks/robustness)] for dataset shift evaluation (download dataset to 'data/CIFAR-10-C' folder)
-- ImageNet with corruptions [[Hendrycks & Dietterich 2019](https://github.com/hendrycks/robustness)] for dataset shift evaluation (download dataset to 'data/ImageNet-C' folder)
+- CIFAR10 with corruptions [[Hendrycks & Dietterich 2019](https://github.com/hendrycks/robustness)] for dataset shift evaluation (download [CIFAR-10-C](https://zenodo.org/record/2535967/files/CIFAR-10-C.tar?download=1) dataset to 'data/CIFAR-10-C' folder)
+- ImageNet with corruptions [[Hendrycks & Dietterich 2019](https://github.com/hendrycks/robustness)] for dataset shift evaluation (download [ImageNet-C](https://zenodo.org/record/2235448#.X6u3NmhKjOg) dataset to 'data/ImageNet-C' folder)
 - SVHN [[Netzer et al. 2011](http://ufldl.stanford.edu/housenumbers/)] for out-of-distribution evaluation (download [file](https://zenodo.org/record/4267245/files/svhn-test.npy) to 'data/SVHN' folder)
 
 Dependencies:
