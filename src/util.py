@@ -27,9 +27,9 @@
 # 
 # Utily functions for variational inference in Bayesian deep neural networks
 # ELBO_loss -> to compute evidence lower bound loss
-# get_rho ->   to compute softplus of variance, to make sure sigma remains always positive
-#              during model training, and non-transformed 'rho' gets updated during backprop.
-#              rho = log(1 + exp(sigma))
+# get_rho -> variance (sigma) is represented by softplus function  'sigma = log(1 + exp(rho))' 
+#            to make sure it remains always positive and non-transformed 'rho' gets 
+#            updated during training.
 # MOPED   ->   set the priors and initialize approximate variational posteriors of Bayesian NN
 #              with Empirical Bayes
 #
